@@ -1,0 +1,16 @@
+path: "C:/Users/ducan/Downloads/Yolo V8/datasets/my_food_dataset"
+train: "train/images"
+val: "valid/images"
+test: "test/images"
+
+nc: 77
+names: ['Apple pie', 'Apple', 'Bagel', 'Banana', 'Bell pepper', 'Bread', 'Broccoli', 'Cake', 'Candy', 'Carrot', 'Cereal bar packaged', 'Cereal bar', 'Cheese', 'Chicken nugget', 'Chicken roast', 'Chips packaged', 'Chips', 'Chocolate bar packaged', 'Chocolate bar', 'Coconut', 'Coke', 'Cookie', 'Cracker packaged', 'Cracker', 'Croissant', 'Cucumber', 'Deep fried chicken wing', 'Donuts', 'Fanta', 'French fries', 'Frutta secca', 'Gallette di riso packaged', 'Gallette di riso', 'Grissini', 'Hamburger', 'Hot dog', 'Ice cream', 'Juice', 'Lasagna', 'Lemon', 'Macaron', 'Mango', 'Merendine packaged', 'Merendine', 'Milk', 'Muffin', 'Mushroom', 'Oil pasta', 'Orange', 'Pancake', 'Pasta al ragu', 'Pasta with carbonara sauce', 'Peach', 'Pear', 'Pineapple', 'Pizza', 'Popcorn', 'Potato', 'Pumpkin', 'Rare cheese cake', 'Risotto', 'Ritz cracker packaged', 'Ritz cracker', 'Salad', 'Salatini packaged', 'Salatini', 'Sandwich', 'Spread', 'Steak', 'Strawberry', 'Taralli', 'Tiramisu', 'Tomato', 'Tortellini in broth', 'Waffle', 'Watermelon', 'Zucchini']
+
+roboflow:
+  workspace: fooddetection-htdbb
+  project: food-detection-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fooddetection-htdbb/food-detection-dataset/dataset/1
+
+  #test
